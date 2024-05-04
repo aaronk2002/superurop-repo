@@ -17,6 +17,6 @@ do
     do
         i=${att_svm_p[$idx]}
         j=${Ws_p[$idx]}
-        python ../correlation_calculation.py --att_svm ../result/convergence/p$i/$parameterization$seed --Ws ../result/convergence/p$j/$parameterization$seed --output ../result/correlation/$i-$j/$parameterization$seed
+        python ../correlation_calculation.py --att_svm ../result/convergence/p$i/$parameterization$seed.pt --Ws ../result/convergence/p$j/$parameterization$seed.pt --output ../result/correlation/$i-$j/$parameterization$seed.pt
     done
 done
