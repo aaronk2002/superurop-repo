@@ -1,3 +1,3 @@
 *.pt
-images*
+*.jpg
 tools/__pycache__/*
