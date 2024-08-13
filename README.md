@@ -7,3 +7,7 @@ This is the codebase for my SuperUROP project titled "Implicit Regularization of
      This bash script is used to calculate the correlation coefficient between the iterates of the $l_p$ Mirror Descent algorithm and the $l_q$-ATT-SVM solutions for all $p,q\in\set\{1.75,2,3\}$, results are saved in `result/correlation/{q}-{p}`
 
 The above bash scripts presents the results in the result directory, which can be visualized in the `plotter.ipynb` file.
+
+## Acknowledgement
+
+Certain parts of the code is adapted from the [TF-as-SVM](https://github.com/umich-sota/TF-as-SVM) repository
